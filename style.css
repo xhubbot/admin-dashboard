@@ -1,0 +1,19 @@
+.layout-container {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 150px 1fr;
+}
+
+.sidebar {
+  border-style: solid;
+}
+
+.header {
+  border-style: solid;
+}
+
+.main-content {
+  border-style: solid;
+}
