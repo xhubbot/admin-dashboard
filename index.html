@@ -7,10 +7,71 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="layout-container">
-    <div class="sidebar"></div>
-    <div class="header"></div>
-    <div class="main-content"></div>
+
+  <div class="page">
+
+    <div class="sidebar">
+
+      <div class="logo">
+        <img src="./images/view-dashboard.svg" alt="icon" height="50px">
+        <h1>Dashboard</h1>
+      </div>
+
+      <div class="pages">
+        <ul>
+          <li class="selected"><img src="images/home.svg" height="25px">Home</li>
+          <li><img src="images/card-account-details.svg" height="25px">Profile</li>
+          <li><img src="images/message-reply.svg" height="25px">Messages</li>
+          <li><img src="images/clock.svg" height="25px">History</li>
+          <li><img src="images/format-list-checks.svg" height="25px">Tasks</li>
+          <li><img src="images/account-group.svg" height="25px">Communities</li>
+        </ul>
+      </div>
+
+      <div class="tools">
+        <ul>
+          <li><img src="images/cog.svg" height="25px">Settings</li>
+          <li><img src="images/help-box.svg" height="25px">Support</li>
+          <li><img src="images/shield-check.svg" height="25px">Privacy</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="header">
+
+      <div class="search-bar">
+        <form class="search-bar">
+          <button>Search</button>
+          <input type="text" placeholder="Ask anything">
+        </form>
+      </div>
+
+      <div class="user-info">
+        <img class="notification-icon" src="./images/alien-outline.svg">
+        <img class="user-info-avatar" src="./images/avatar.png">
+      </div>
+
+      <div class="greeting">
+        <img class="greeting-avatar" src="./images/avatar.png">
+        <div class="greeting-text">
+          <!-- <p>Hi there,</p> -->
+          <p>Daniil Kähri (@xhubbot)</p>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="new-button">New</button>
+        <button class="upload-button">Upload</button>
+        <button class="share-button">Share</button>
+      </div>
+
+    </div>
+
+    <div class="main-content">
+
+    </div>
+
   </div>
   <script src="script.js"></script>
 </body>
