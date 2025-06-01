@@ -41,26 +41,28 @@
     <div class="header">
 
       <div class="search-bar">
-        <form class="search-bar">
-          <button>Search</button>
-          <input type="text" placeholder="Ask anything">
+        <form class="search-form">
+          <button type="submit" class="search-button">
+            <img src="images/magnify.svg" alt="Magnifier icon" height="25px">
+          </button>
+          <input class="search-input" type="text" placeholder="Ask anything.">
         </form>
       </div>
 
       <div class="user-info">
-        <img class="notification-icon" src="./images/alien-outline.svg">
-        <img class="user-info-avatar" src="./images/avatar.png">
+        <button><img class="notification-icon" src="./images/bell-ring-outline.svg"></button>
+        <button><img class="user-info-avatar" src="./images/avatar.png"></button>
       </div>
 
       <div class="greeting">
         <img class="greeting-avatar" src="./images/avatar.png">
         <div class="greeting-text">
-          <!-- <p>Hi there,</p> -->
-          <p>Daniil Kähri (@xhubbot)</p>
+          <p class="hi-there">Hi there,</p>
+          <p class="name-username">Daniil Kähri (@xhubbot)</p>
         </div>
       </div>
 
-      <div class="buttons">
+      <div class="action-buttons">
         <button class="new-button">New</button>
         <button class="upload-button">Upload</button>
         <button class="share-button">Share</button>
